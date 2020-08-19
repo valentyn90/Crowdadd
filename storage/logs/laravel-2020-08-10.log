@@ -1,0 +1,21 @@
+[2020-08-10 18:10:21] local.ERROR: Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` {"exception":"[object] (ErrorException(code: 0): Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` at F:\\xampp\\htdocs\\laravel\\worketic\\vendor\\themsaid\\laravel-langman\\src\\Commands\\FindCommand.php:113)
+[stacktrace]
+#0 F:\\xampp\\htdocs\\laravel\\worketic\\vendor\\composer\\ClassLoader.php(444): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8192, 'Unparenthesized...', 'F:\\\\xampp\\\\htdocs...', 113, Array)
+#1 F:\\xampp\\htdocs\\laravel\\worketic\\vendor\\composer\\ClassLoader.php(444): include()
+#2 F:\\xampp\\htdocs\\laravel\\worketic\\vendor\\composer\\ClassLoader.php(322): Composer\\Autoload\\includeFile('F:\\\\xampp\\\\htdocs...')
+#3 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('Themsaid\\\\Langma...')
+#4 [internal function]: spl_autoload_call('Themsaid\\\\Langma...')
+#5 F:\\xampp\\htdocs\\laravel\\worketic\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(779): ReflectionClass->__construct('Themsaid\\\\Langma...')
+#6 F:\\xampp\\htdocs\\laravel\\worketic\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(658): Illuminate\\Container\\Container->build('Themsaid\\\\Langma...')
+#7 F:\\xampp\\htdocs\\laravel\\worketic\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(609): Illuminate\\Container\\Container->resolve('Themsaid\\\\Langma...', Array)
+#8 F:\\xampp\\htdocs\\laravel\\worketic\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(759): Illuminate\\Container\\Container->make('Themsaid\\\\Langma...', Array)
+#9 F:\\xampp\\htdocs\\laravel\\worketic\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(241): Illuminate\\Foundation\\Application->make('Themsaid\\\\Langma...')
+#10 F:\\xampp\\htdocs\\laravel\\worketic\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(255): Illuminate\\Console\\Application->resolve('Themsaid\\\\Langma...')
+#11 F:\\xampp\\htdocs\\laravel\\worketic\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\ServiceProvider.php(267): Illuminate\\Console\\Application->resolveCommands(Array)
+#12 F:\\xampp\\htdocs\\laravel\\worketic\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(148): Illuminate\\Support\\ServiceProvider->Illuminate\\Support\\{closure}(Object(Illuminate\\Console\\Application))
+#13 F:\\xampp\\htdocs\\laravel\\worketic\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(71): Illuminate\\Console\\Application->bootstrap()
+#14 F:\\xampp\\htdocs\\laravel\\worketic\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(317): Illuminate\\Console\\Application->__construct(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Events\\Dispatcher), '5.7.29')
+#15 F:\\xampp\\htdocs\\laravel\\worketic\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Foundation\\Console\\Kernel->getArtisan()
+#16 F:\\xampp\\htdocs\\laravel\\worketic\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 {main}
+"} 
