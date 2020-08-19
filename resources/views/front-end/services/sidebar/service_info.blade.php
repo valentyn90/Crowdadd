@@ -7,7 +7,7 @@
        <ul class="wt-service-info">
           <li>
              <span><i class="fa fa-calendar-check-o iconcolor1"></i>
-             <strong>{{{$delivery_time->title}}}</strong> &nbsp;{{ trans('lang.delivery_time') }}</span>
+             <strong>{! $delivery_time->title !}</strong> &nbsp;{{ trans('lang.delivery_time') }}</span>
           </li>
           <li>
              <span><i class="fa fa-search iconcolor2"></i><strong>{{{$service->views}}}</strong>&nbsp;{{ trans('lang.views') }}</span>
